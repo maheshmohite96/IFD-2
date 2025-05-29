@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Forgery Detection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo"> IMAGE FORGERY DETECTOR</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">login</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <h2>Check Image Forgery</h2>
+      <form id="uploadForm">
+        <input type="file" id="imageInput" accept="image/*" required />
+        <button type="submit">Analyze Image</button>
+      </form>
+      <div id="previewBox">
+        <!-- <img id="previewImage" src="https://images.unsplash.com/photo-1612831455546-56a3a9631d2e?auto=format&fit=crop&w=500&q=80" alt="Preview" /> -->
+        <!-- <img id="previewImage" src="" alt="Preview" /> -->
+      </div>
+      <div id="resultBox">Upload an image to begin analysis</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
